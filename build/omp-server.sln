@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{D7D75B8E-AAD3-37C2-9056-A066D6BF270D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0B92C22-C90F-329D-8461-998D6EEB6802} = {F0B92C22-C90F-329D-8461-998D6EEB6802}
+		{AD0DA83E-D390-3022-BDE2-82BD7FD5BCBF} = {AD0DA83E-D390-3022-BDE2-82BD7FD5BCBF}
+		{4FAD2104-096E-3AD4-BB12-8C7304AB475B} = {4FAD2104-096E-3AD4-BB12-8C7304AB475B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{AEE98988-706F-3F84-9F8C-1B15348DDF91}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D7D75B8E-AAD3-37C2-9056-A066D6BF270D} = {D7D75B8E-AAD3-37C2-9056-A066D6BF270D}
+		{AD0DA83E-D390-3022-BDE2-82BD7FD5BCBF} = {AD0DA83E-D390-3022-BDE2-82BD7FD5BCBF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OMP-SDK", "lib\sdk\OMP-SDK.vcxproj", "{F0B92C22-C90F-329D-8461-998D6EEB6802}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AD0DA83E-D390-3022-BDE2-82BD7FD5BCBF} = {AD0DA83E-D390-3022-BDE2-82BD7FD5BCBF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{AD0DA83E-D390-3022-BDE2-82BD7FD5BCBF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "omp-server", "omp-server.vcxproj", "{4FAD2104-096E-3AD4-BB12-8C7304AB475B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0B92C22-C90F-329D-8461-998D6EEB6802} = {F0B92C22-C90F-329D-8461-998D6EEB6802}
+		{AD0DA83E-D390-3022-BDE2-82BD7FD5BCBF} = {AD0DA83E-D390-3022-BDE2-82BD7FD5BCBF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7D75B8E-AAD3-37C2-9056-A066D6BF270D}.Release|Win32.ActiveCfg = Release|Win32
+		{D7D75B8E-AAD3-37C2-9056-A066D6BF270D}.Release|Win32.Build.0 = Release|Win32
+		{AEE98988-706F-3F84-9F8C-1B15348DDF91}.Release|Win32.ActiveCfg = Release|Win32
+		{F0B92C22-C90F-329D-8461-998D6EEB6802}.Release|Win32.ActiveCfg = Release|Win32
+		{F0B92C22-C90F-329D-8461-998D6EEB6802}.Release|Win32.Build.0 = Release|Win32
+		{AD0DA83E-D390-3022-BDE2-82BD7FD5BCBF}.Release|Win32.ActiveCfg = Release|Win32
+		{AD0DA83E-D390-3022-BDE2-82BD7FD5BCBF}.Release|Win32.Build.0 = Release|Win32
+		{4FAD2104-096E-3AD4-BB12-8C7304AB475B}.Release|Win32.ActiveCfg = Release|Win32
+		{4FAD2104-096E-3AD4-BB12-8C7304AB475B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCF86CBE-13F2-3DD2-BAA6-9D5837DE3FE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

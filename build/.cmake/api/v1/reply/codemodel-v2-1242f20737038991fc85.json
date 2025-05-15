@@ -1,0 +1,300 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "lib/sdk",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.sdk-Release-3ae5a104c911fc4a30bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/sdk",
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				},
+				{
+					"build" : "lib/sdk/lib/glm",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-lib.sdk.lib.glm-Release-911d4ca6f8cc9ffd2ed5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "lib/sdk/lib/glm",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "lib/sdk/lib/glm/glm",
+					"jsonFile" : "directory-lib.sdk.lib.glm.glm-Release-ffd97b3927e69e52eb1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "lib/sdk/lib/glm/glm"
+				},
+				{
+					"build" : "lib/sdk/lib/robin-hood-hashing",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.sdk.lib.robin-hood-hashing-Release-b998dbfc9503d657d040.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "lib/sdk/lib/robin-hood-hashing",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "lib/sdk/lib/span-lite",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.sdk.lib.span-lite-Release-96b4908570f8e0d371a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "lib/sdk/lib/span-lite",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "lib/sdk/lib/string-view-lite",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.sdk.lib.string-view-lite-Release-d82654b4073a4177e664.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "lib/sdk/lib/string-view-lite",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "omp-server",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						8
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "OMP-SDK",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "glm",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "robin-hood-hashing",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "span_lite",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "string_view_lite",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-8952d9caf93559dcd2b4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@f4a87a4cbec9c55c4078",
+					"jsonFile" : "target-ALL_BUILD-Release-b625cc2f81b8c2640738.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@cab48f51c757f68ed71e",
+					"jsonFile" : "target-ALL_BUILD-Release-dced76189c0d8be8ff8e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@9e34c09b46fe5cab2ce0",
+					"jsonFile" : "target-ALL_BUILD-Release-fecc0f66295c3d7af98f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@ade2d74247867cd51cd1",
+					"jsonFile" : "target-ALL_BUILD-Release-86a8d824e5272888768c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@9f1a8e3f4505ae86c34d",
+					"jsonFile" : "target-ALL_BUILD-Release-7b7bf125a07a3cfcea29.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OMP-SDK::@f4a87a4cbec9c55c4078",
+					"jsonFile" : "target-OMP-SDK-Release-00e8b9f85c523324f9e2.json",
+					"name" : "OMP-SDK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-2ba77662b8c2ef70a7e4.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omp-server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omp-server-Release-e3fb29d662848681d8c7.json",
+					"name" : "omp-server",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/omp-nx-cpp/build",
+		"source" : "D:/omp-nx-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

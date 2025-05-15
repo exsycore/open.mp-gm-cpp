@@ -1,0 +1,10 @@
+^D:\OMP-NX-CPP\LIB\SDK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/omp-nx-cpp -BD:/omp-nx-cpp/build --check-stamp-file D:/omp-nx-cpp/build/lib/sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

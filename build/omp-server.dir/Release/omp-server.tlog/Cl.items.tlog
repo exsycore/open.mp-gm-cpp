@@ -1,0 +1,6 @@
+D:\omp-nx-cpp\src\main.cpp;D:\omp-nx-cpp\build\omp-server.dir\Release\main.obj
+D:\omp-nx-cpp\src\utils\utils.cpp;D:\omp-nx-cpp\build\omp-server.dir\Release\utils.obj
+D:\omp-nx-cpp\src\mysql\mysql.cpp;D:\omp-nx-cpp\build\omp-server.dir\Release\mysql.obj
+D:\omp-nx-cpp\lib\encryption\encrypt.cpp;D:\omp-nx-cpp\build\omp-server.dir\Release\encrypt.obj
+D:\omp-nx-cpp\lib\encryption\Base64.cpp;D:\omp-nx-cpp\build\omp-server.dir\Release\Base64.obj
+D:\omp-nx-cpp\lib\encryption\vigenere.cpp;D:\omp-nx-cpp\build\omp-server.dir\Release\vigenere.obj
