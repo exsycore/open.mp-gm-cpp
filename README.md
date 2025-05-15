@@ -1,3 +1,6 @@
+* Add MYSQL Connector/C++
+* Add Encryption
+* Add Login/Register Dialog
 # Windows
 * Build
 ```bash
