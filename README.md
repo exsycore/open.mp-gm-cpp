@@ -4,6 +4,7 @@
 # Windows
 * Build
 ```bash
+git clone --recursive https://github.com/exsycore/open.mp-gm-cpp.git
 mkdir build
 cd build
 cmake .. -A Win32 -T ClangCL
