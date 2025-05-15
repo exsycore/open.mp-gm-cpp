@@ -18,8 +18,8 @@ if(MSVC)
     endforeach()
 endif()
 
-set(CONNECTOR_CPP_INCLUDE "D:/omp-nx-cpp/lib/mysql")
-set(CONNECTOR_CPP_LIB "D:/omp-nx-cpp/lib/mysql/lib/vs14")
+set(CONNECTOR_CPP_INCLUDE "D:/open.mp/omp-nx-cpp/lib/mysql")
+set(CONNECTOR_CPP_LIB "D:/open.mp/omp-nx-cpp/lib/mysql/lib/vs14")
 
 include_directories(
     ${CONNECTOR_CPP_INCLUDE}
@@ -29,9 +29,9 @@ include_directories(
 link_directories(${CONNECTOR_CPP_LIB})
 
 foreach(OUTPUTCONFIG DEBUG RELEASE RELWITHDEBINFO MINSIZEREL)
-    set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_${OUTPUTCONFIG} "D:/nx-server-omp/components/")
-    set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_${OUTPUTCONFIG} "D:/nx-server-omp/components/")
-    set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_${OUTPUTCONFIG} "D:/nx-server-omp/components/")
+    set(CMAKE_LIBRARY_OUTPUT_DIRECTORY_${OUTPUTCONFIG} "D:/open.mp/nx-server-omp/")
+    set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_${OUTPUTCONFIG} "D:/open.mp/nx-server-omp/")
+    set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_${OUTPUTCONFIG} "D:/open.mp/nx-server-omp/")
 endforeach()
 
 add_subdirectory(lib/sdk)
