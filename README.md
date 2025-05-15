@@ -2,9 +2,12 @@
 * Add Encryption
 * Add Login/Register Dialog
 # Windows
-* Build
+* Clone
 ```bash
 git clone --recursive https://github.com/exsycore/open.mp-gm-cpp.git
+```
+* Build
+```bash
 mkdir build
 cd build
 cmake .. -A Win32 -T ClangCL
