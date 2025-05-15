@@ -1,0 +1,6 @@
+[submodule "libs/encryption"]
+	path = libs/encryption
+	url = https://github.com/philipperemy/easy-encryption
+[submodule "libs/sdk"]
+	path = libs/sdk
+	url = https://github.com/openmultiplayer/open.mp-sdk
