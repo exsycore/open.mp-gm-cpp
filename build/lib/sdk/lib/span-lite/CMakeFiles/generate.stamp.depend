@@ -1,7 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
-C:/Program Files/CMake/share/cmake-4.0/Modules/GNUInstallDirs.cmake
-C:/Program Files/CMake/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake
-D:/omp-nx-cpp/lib/sdk/lib/span-lite/CMakeLists.txt
-D:/omp-nx-cpp/lib/sdk/lib/span-lite/cmake/span-lite-config-version.cmake.in
-D:/omp-nx-cpp/lib/sdk/lib/span-lite/cmake/span-lite-config.cmake.in
